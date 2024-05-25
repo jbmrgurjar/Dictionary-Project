@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f4f4f4; */
+    background-image: url('https://media.istockphoto.com/id/594484448/vector/books-sketch-seamless.jpg?s=612x612&w=0&k=20&c=DACpDBVkXYVwafxvixLdFERAbVJMF94SyZO9gJ0FcU4=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    background: #92e5cc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#in {
+    margin-bottom: 20px;
+}
+
+#input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #91d1be;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#search {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search:hover {
+    background-color: #9284e1;
+}
+
+#definition {
+    margin-top: 20px;
+}
+
+#definition p {
+    font-size: 18px;
+    color: #333;
+}
